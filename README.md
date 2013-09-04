@@ -24,7 +24,7 @@ Formally, a community detection aims to partition a graph’s vertices in subset
 		var init_part = {'id1':0, 'id2':0, 'id3': 1}; 
 		// Object with ids of nodes as properties and community number assigned as value.
 
-3. Run the Algorithm on your node and edge set by chaining the **nodes** and **edges** methods, optionally you can provide an intermediary community partition assignement with the **partition_init** method. [ Order of chaining is important ]
+3. Run the Algorithm on your node and edge set by chaining the **nodes** and **edges** methods, optionally you can provide an intermediary community partition assignement with the **partition_init** method. [ **Order of chaining is important** ]
 
 		var community = jLouvain().nodes(node_data).edges(edge_data).partition_init(init_part);
     	var result  = community();
