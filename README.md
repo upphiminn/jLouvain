@@ -20,7 +20,7 @@ Formally, a community detection aims to partition a graph’s vertices in subset
 		var edge_data = [{source: 'id1', target:'id2', weight: 10.0}, 
 						 {source: 'id2', target:'id3', weight: 20.0},
 						 {source: 'id3', target:'id1', weight: 30.0}];
-####(Optional ) Partion Data
+####(Optional) Partition Data
 		var init_part = {'id1':0, 'id2':0, 'id3': 1}; 
 		// Object with ids of nodes as properties and community number assigned as value.
 
