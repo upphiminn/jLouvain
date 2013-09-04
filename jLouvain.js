@@ -7,7 +7,7 @@ Based on https://bitbucket.org/taynaud/python-louvain/overview
 
 */
 (function(){
-	CommunityClustering = function(){
+	jLouvain = function(){
 		//Constants
 		var __PASS_MAX = -1
 		var __MIN 	 = 0.0000001
