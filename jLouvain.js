@@ -1,5 +1,5 @@
 /* 
-Author: Corneliu S.
+Author: Corneliu S. (github.com/upphiminn)
 
 This is a javascript implementation of the Louvain 
 community detection algorithm (http://arxiv.org/abs/0803.0476)
