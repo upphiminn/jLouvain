@@ -28,4 +28,5 @@ Formally, a community detection aims to partition a graph’s vertices in subset
 
 		var community = jLouvain().nodes(node_data).edges(edge_data).partition_init(init_part);
     	var result  = community();##Example
-See **example.html**, use the console to view the raw input data and raw output.
+See **example.html**, use the console to view the raw input data and raw output.![](example/default.png)
+####After Community Detection![](example/communities.png)
