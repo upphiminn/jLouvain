@@ -11,8 +11,15 @@ Formally, a community detection aims to partition a graph’s vertices in subset
 ##Usage
 1. Import the script.
 
+####Client-side:
+
 		<script type="text/javascript" src="jLouvain.js"></script>
 		
+####Or server-side (node.js):
+
+		var jLouvain = require('./jLouvain')
+
+
 2. Sample Data Format
 ####Node Data
 		var node_data = ['id1', 'id2', 'id3']; // any type of string can be used as id
