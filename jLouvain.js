@@ -17,6 +17,7 @@
 		var original_graph_edges;
 		var original_graph = {};
 		var partition_init;
+		var edge_index = {};
 
 		//Helpers
 		function make_set(array) {
@@ -79,15 +80,12 @@
 
 		function add_edge_to_graph(graph, edge) {
 			update_assoc_mat(graph, edge);
-
-			var edge_index = graph.edges.map(function (d) {
-				return d.source + '_' + d.target;
-			}).indexOf(edge.source + '_' + edge.target);
-
-			if (edge_index !== -1) {
-				graph.edges[edge_index].weight = edge.weight;
+			
+			if (edge_index[edge.source+'_'+edge.target]) {
+				graph.edges[edge_index[edge.source+'_'+edge.target]].weight = edge.weight;
 			} else {
 				graph.edges.push(edge);
+				edge_index[edge.source+'_'+edge.target] = graph.edges.length - 1;
 			}
 		}
 
@@ -298,6 +296,8 @@
 				var new_weight = (w_prec + weight);
 				add_edge_to_graph(ret, {'source': com1, 'target': com2, 'weight': new_weight});
 			});
+			
+			edge_index = {};
 
 			return ret;
 		}
