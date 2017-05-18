@@ -52,8 +52,9 @@ var result  = community();
 See **example.html**, use the console to view the raw input data and raw output.
 
 Initial input graph for community detection.
-
 ![](example/default.png)
-####After Community Detection
+
+#### After Community Detection
+
 We can see the partitioned graph vertices with the help of color coding.
 ![](example/communities.png)
