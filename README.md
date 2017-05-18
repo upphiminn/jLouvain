@@ -47,7 +47,8 @@ var community = jLouvain().nodes(node_data).edges(edge_data).partition_init(init
 var result  = community();
 ```
 
-##Example
+## Example
+
 See **example.html**, use the console to view the raw input data and raw output.
 
 Initial input graph for community detection.
