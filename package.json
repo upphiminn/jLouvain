@@ -1,0 +1,23 @@
+{
+  "name": "jLouvain",
+  "version": "1.0.0",
+  "description": "**Corneliu S.**",
+  "main": "jLouvain.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mango-information-systems/jLouvain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mango-information-systems/jLouvain/issues"
+  },
+  "homepage": "https://github.com/Mango-information-systems/jLouvain#readme"
+}
