@@ -1,0 +1,28 @@
+{
+	"name": "jlouvain",
+	"version": "1.0.0",
+	"description": "Louvain community detection for Javascript",
+	"main": "jLouvain.js",
+	"scripts": {
+		"test": "echo 'No tests to run'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/upphiminn/jLouvain.git"
+	},
+	"keywords": [
+		"louvain",
+		"community",
+		"detection",
+		"networks",
+		"social",
+		"networks",
+		"clustering"
+	],
+	"author": "Corneliu S.",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/upphiminn/jLouvain/issues"
+	},
+	"homepage": "https://github.com/upphiminn/jLouvain#readme"
+}
