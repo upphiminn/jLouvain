@@ -1,0 +1,33 @@
+{
+	"name": "jlouvain.js",
+	"version": "1.0.0",
+	"description": "Community detection algorithm",
+	"main": "dist/jLouvain.js",
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.8.4",
+		"@babel/preset-env": "^7.8.4"
+	},
+	"scripts": {
+		"build": "babel src -s -d dist",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/upphiminn/jLouvain.git"
+	},
+	"keywords": [
+		"community",
+		"detection",
+		"clustering",
+		"algorithms",
+		"social",
+		"computation"
+	],
+	"author": "Corneliu S.",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/upphiminn/jLouvain/issues"
+	},
+	"homepage": "https://github.com/upphiminn/jLouvain#readme"
+}
