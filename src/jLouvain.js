@@ -1,4 +1,4 @@
-/* 
+/*
  Author: Corneliu S. (github.com/upphiminn)
 
  This is a javascript implementation of the Louvain
@@ -83,11 +83,12 @@ function get_graph_size(graph) {
 function add_edge_to_graph(graph, edge) {
 	update_assoc_mat(graph, edge);
 
-	if (edge_index[edge.source + '_' + edge.target]) {
-		graph.edges[edge_index[edge.source + '_' + edge.target]].weight = edge.weight;
+	let key = edge.source + '_' + edge.target;
+	if (edge_index[key]) {
+		graph.edges[edge_index[key]].weight = edge.weight;
 	} else {
 		graph.edges.push(edge);
-		edge_index[edge.source + '_' + edge.target] = graph.edges.length - 1;
+		edge_index[key] = graph.edges.length - 1;
 	}
 }
 
