@@ -84,7 +84,7 @@ function add_edge_to_graph(graph, edge) {
 	update_assoc_mat(graph, edge);
 
 	let key = edge.source + '_' + edge.target;
-	if (edge_index[key]) {
+	if (edge_index.hasOwnProperty(key)) {
 		graph.edges[edge_index[key]].weight = edge.weight;
 	} else {
 		graph.edges.push(edge);
