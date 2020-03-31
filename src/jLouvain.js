@@ -87,8 +87,8 @@ function add_edge_to_graph(graph, edge) {
 	if (edge_index.hasOwnProperty(key)) {
 		graph.edges[edge_index[key]].weight = edge.weight;
 	} else {
+		edge_index[key] = graph.edges.length;
 		graph.edges.push(edge);
-		edge_index[key] = graph.edges.length - 1;
 	}
 }
 
