@@ -3,7 +3,7 @@
 
  This is a javascript implementation of the Louvain
  community detection algorithm (http://arxiv.org/abs/0803.0476)
- Based on https://bitbucket.org/taynaud/python-louvain/overview
+ Based on https://github.com/taynaud/python-louvain
 
  Code style is very imperative, I know :)
  */
